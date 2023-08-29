@@ -1,18 +1,27 @@
 body{
-    background-color: #E4E4D0;
-    font-family: fantasy;
-    color: black;
-    margin: 0;
+    background-image: url("public/bg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    color: rgba(223, 67, 67, 0.719);
+    margin-top: 5px;
     padding: 0;
-    word-spacing: 4px;
+   
 }
 .container{
   
-   margin-left: 5%;
+   margin-left: 56%;
    margin-right: 5%;
 }
 .logo{
    text-align: center;
+
+}
+.logo img{
+height: 80px;
+width:  136px;
+border: 3px ridge white;
+border-radius: 100%;
+
 }
 h4{
    position: relative;
@@ -21,22 +30,27 @@ h4{
    color:#C08261;
 }
 input{
-    background-color: #FFEEF4;
-    border: 2px solid #E2C799;
+    background-color: #8be8e5d8;
+    border: none;
+    border-bottom: 2px solid #fdfcf8b6;
     padding: 10px;
     margin-top: 10px;
     display: block;
+    width: 98%;
 }
 form{
    margin: 7%;
    padding: 3%;
-   border: 2px solid black;
+   border: 6px solid rgba(175, 166, 166, 0.126);
+   background: #8be8e5d8;
+   height: 50vh; 
+   width: 94%;
 
 }
 #submit{
 
    background-color: #C08261;
-   border: 2px ridge white;
+   border: 2px ridge rgba(255, 255, 255, 0.114);
    display: block;
    margin-top: 10px;
    padding: 10px;
@@ -44,8 +58,15 @@ form{
 }
 h1{
    position: relative;
-   left: 73px;
+   left: 63px;
+   color: #94A684;
+   font-size: 54px;
+   font-family:monospace;
    text-transform: capitalize;
    text-decoration:double;
-   text-shadow: 10px 5px 8px #d2a232;
+   color: #94A684;font-size: 60px;
+}
+h5{
+   margin-left: 2px;
+   color:rgba(0, 0, 0, 0.681);
 }
