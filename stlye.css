@@ -70,3 +70,17 @@ h5{
    margin-left: 2px;
    color:rgba(0, 0, 0, 0.681);
 }
+
+select{
+
+background-color: rgba(178, 234, 215, 0.603);
+padding: 10px;
+border: none;
+}
+
+select:hover{
+   background-color: rgba(171, 188, 182, 0.603);
+   padding: 10px;
+   border: 1px rgba(255, 255, 255, 0.273) solid; 
+   cursor: pointer;
+}
