@@ -1,0 +1,51 @@
+body{
+    background-color: #E4E4D0;
+    font-family: fantasy;
+    color: black;
+    margin: 0;
+    padding: 0;
+    word-spacing: 4px;
+}
+.container{
+  
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.logo{
+   text-align: center;
+}
+h4{
+   position: relative;
+   left: 73px;
+   font-size: 25px;
+   color:#C08261;
+}
+input{
+    background-color: #FFEEF4;
+    border: 2px solid #E2C799;
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}
+form{
+   margin: 7%;
+   padding: 3%;
+   border: 2px solid black;
+
+}
+#submit{
+
+   background-color: #C08261;
+   border: 2px ridge white;
+   display: block;
+   margin-top: 10px;
+   padding: 10px;
+
+}
+h1{
+   position: relative;
+   left: 73px;
+   text-transform: capitalize;
+   text-decoration:double;
+   text-shadow: 10px 5px 8px #d2a232;
+}
