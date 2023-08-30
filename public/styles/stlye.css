@@ -1,16 +1,30 @@
 body{
-    background-image: url("public/bg.jpg");
-    background-size:cover;
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
     background-attachment: fixed;
     color: rgba(223, 67, 67, 0.719);
-    margin-top: 5px;
+    margin: 0;
     padding: 0;
+    position: relative;
+   
    
 }
 .container{
+  width: 40%;
+ position: absolute;
+ right: 2%;
   
-   margin-left: 56%;
-   margin-right: 5%;
+  
+}
+
+.form-container{
+ width: 98%;
+
+}
+.form-container:hover{
+
+   background-color: #C08261;
 }
 .logo{
    text-align: center;
@@ -30,21 +44,20 @@ h4{
    color:#C08261;
 }
 input{
-    background-color: #8be8e5d8;
+    background-color: #e1e9e9d8;
     border: none;
     border-bottom: 2px solid #fdfcf8b6;
-    padding: 10px;
-    margin-top: 10px;
+    margin-top:10px;
+    height: 45px;
     display: block;
     width: 98%;
 }
 form{
-   margin: 7%;
-   padding: 3%;
+
    border: 6px solid rgba(175, 166, 166, 0.126);
-   background: #8be8e5d8;
+   background: #e8eeeea1;
    height: 50vh; 
-   width: 94%;
+   width: 100%;
 
 }
 #submit{

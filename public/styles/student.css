@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient( to bottom right,rgb(1 30 73),rgb(88 22 122),rgb(96 66 216 / 93%));
+    background-repeat: no-repeat;
+    color: rgb(186, 204, 219);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+  
+  } 
+  .heading{
+    text-align: center;
+  }
+
+  .form{
+    margin-top: 10px;
+  
+  }
+
+ .form-background{
+    width:50%;
+    height:auto;
+    background-image: url("../student-form-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 10px;
+    border: 5px  groove rgba(255, 255, 255, 0.062);
+    border-radius: 2%;
+
+
+  }
+
+  .form-container{
+    color: beige;
+    width:100%;
+    margin: auto;
+    padding: 10px;
+    
+
+  }
+
+  input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgba(35, 25, 25, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.319);
+    padding: 1px;
+  }
+
+  input:hover{
+   
+    background-color: rgba(231, 217, 217, 0.623);
+    border-bottom: 2px solid rgba(35, 22, 22, 0.337);
+    color: rgb(219, 222, 225);
+    padding: 2px;
+
+
+  }
+
+  .form-label{
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: capitalize;
+  }
+
+  .btn{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+
+  }
+
+  .cousre-list{
+    border: none;
+    background-color: rgba(35, 25, 25, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.319);
+    width: 34%;
+    color:rgb(230, 211, 211);
+  }

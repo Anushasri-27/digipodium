@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie ticket booking form</title>
+    <link href="../public/styles/stlye.css" rel="stylesheet">
+</head>
+<body>
+       <div class="container">
+       <div class="logo">
+              <img  src="../public/logo.jpg" alt="logo of crown" >
+       </div>
+       <h1>Crown Multiplex</h1>
+       <h4>Book your movie ticket here</h4>
+       <div class="form-container">
+
+           <!--form body to take input from user-->
+      <form name="panel" method="post">
+            <label>
+                 <input type="text" name="fname" placeholder="Enter your name">
+            </label>
+            <label>
+                  <input  type="text" name="lname" placeholder="Enter your lastname">
+            </label>
+            <label> 
+                   <h5 style="margin-top:16px;">Select date of booking</h5>
+                  <input type="date" name="date" placeholder="select date">
+            </label>
+            <label>
+                   <H5 style="margin-top:16px;">List of shows</H5>
+                  <!--USE OD SELECT TAG FOR CREATING LIST OF PREDEFINED LIST OF SHOW-->
+                  <select >
+                     <option>MOVIE_NAME TIME </option>
+                     <option>MOVIE_NAME TIME </option>
+                     <option>MOVIE_NAME TIME </option>
+                     <option>MOVIE_NAME TIME </option>
+                     <option>MOVIE_NAME TIME </option>
+                     <option>MOVIE_NAME TIME </option>
+                  </select>
+            </label>
+            
+             <button id="submit">Submit</button>
+       </form>
+       </div>
+      
+    </div>
+</body>
+</html>
