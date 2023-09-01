@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-overflow: clip;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.background{
+
+    background: blueviolet url("../sign_page_bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+    background-blend-mode:luminosity;
+    z-index: -1;
+    position: relative;
+
+}
+.wrap{
+
+    
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+
+}
+.container{
+    position:sticky;
+    right: 0;
+    background-color: rgba(175, 184, 193, 0.501);
+    backdrop-filter: blur(10px);
+    height: 750px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+
+}
+ form{
+   
+    width: 50%;
+   margin-top: 10px;
+ }
+.form-label{
+ display: block;
+ margin-top: 25px;
+
+}
+
+input{
+    width: 100%;
+    margin-top: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(137, 43, 226, 0.638);
+}
+input:focus{
+    
+    color: white;
+    border: 1px ridge rgba(255, 255, 255, 0.632);
+    background-color: #D09CFA;
+
+}   
+.btn{
+    display:block;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px dashed rgba(255, 255, 255, 0.632);
+    border-radius: 50px;
+    background-color: #39B5E0;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.btn:hover{
+    border: 1px ridge rgba(255, 255, 255, 0.632);
+    background-color: #39b6e083;
+    transform:scale(1.1) translate(5px);
+}
