@@ -13,8 +13,8 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    height: 100vh;
-    width: auto;
+    height: 80vh;
+    width: 100vw;
     background-blend-mode:luminosity;
     z-index: -1;
     position: relative;
@@ -32,8 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
-
+    
 }
 .container{
     position:sticky;
@@ -46,6 +45,8 @@
     width: 70%;
     display: flex;
     justify-content: center;
+    
+    backdrop-filter:blur(5px)
 
 }
  form{

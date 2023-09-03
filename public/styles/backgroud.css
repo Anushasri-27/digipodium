@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-overflow: clip;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.background{
+
+    background: rgba(128, 0, 128, 0.504) url("../mandala.jpg") no-repeat ;
+    background-size: 800px;
+    background-position: right top;
+    background-blend-mode:color-burn;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    display: flex;
+    overflow: scroll;
+    
+   
+
+}
+.wrap{
+    background-image: url("../sign_page_bg.jpg");
+    background-size: 800px;
+    background-position: right top;
+    padding: 10px;
+    width: 500px;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    
+}
+
+ form{
+    padding-left: 100px;
+    width: 100%;
+    margin:0;
+    backdrop-filter: blur(5px);
+ }
+.form-label{
+ display: block;
+ margin-top: 25px;
+
+}
+
+input{
+    width: 70%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(137, 43, 226, 0.638);
+    position: sticky;
+}
+input:focus{
+    
+    color: white;
+    border: 2px solid rgba(142, 91, 4, 0.632);
+    background-color: #a57ac8;
+
+}   
+.btn{
+    display:block;
+    width: 70%;
+    height: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 1px dashed rgba(255, 255, 255, 0.632);
+    border-radius: 50px;
+    background-color: #39B5E0;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.btn:hover{
+    border: 1px ridge rgba(255, 255, 255, 0.632);
+    background-color: #04befce9;
+    transform:scale(1.1) translate(5px);
+}
+
+.right{
+    width: 40%;
+    height: auto;
+    position: relative;
+    right: -551px;
+}
+
+.content{
+    background-color: #bfcbcf63;
+    width:900px;
+    height: auto;
+    margin-top: 5px;
+    word-spacing: 2px;
+    line-height: 50px;
+}
