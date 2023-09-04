@@ -8,8 +8,10 @@
 }
 
 .background{
-
-    background: rgba(128, 0, 128, 0.504) url("../mandala.jpg") no-repeat ;
+    margin: 0;
+    padding: 0;
+    background: rgba(131, 71, 131, 0.564) url("../mandala.jpg") no-repeat ;
+    background-attachment: fixed;
     background-size: 800px;
     background-position: right top;
     background-blend-mode:color-burn;
@@ -18,11 +20,11 @@
     z-index: -1;
     display: flex;
     overflow: scroll;
-    
-   
-
+    text-align: justify;
 }
 .wrap{
+    margin: 0;
+    padding: 0;
     background-image: url("../sign_page_bg.jpg");
     background-size: 800px;
     background-position: right top;
@@ -38,15 +40,26 @@
 }
 
  form{
+    margin:0px;
     padding-left: 100px;
     width: 100%;
-    margin:0;
     backdrop-filter: blur(5px);
+    
  }
 .form-label{
  display: block;
  margin-top: 25px;
 
+}
+
+.heading{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px;
+ font-style: normal;
+ font-weight: bold;
+ text-transform: capitalize;
+ text-shadow: 2px 2px #4ac1c1ad;
+      
 }
 
 input{
@@ -93,7 +106,7 @@ input:focus{
 }
 
 .content{
-    background-color: #bfcbcf63;
+   
     width:900px;
     height: auto;
     margin-top: 5px;
