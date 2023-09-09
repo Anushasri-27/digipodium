@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('../public/cu_bg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px); 
+            height: 100vh; 
+
+        }
+        .contact-card{
+               display: grid;
+               margin-left: 150px;
+               margin-right: 150px;
+               height: 70vh;
+               width: 80vw;
+               grid-template-columns: repeat(2,2fr);
+               grid-template-columns: repeat(2,3fr);
+              
+        }
+        .contact-info{
+        
+            background-image: url(../public/cu_poster.jpg);
+            background-size: contain;
+           
+        }
+        .contact-form{
+         
+            
+        }
+
+        @media screen and (max-width:900px) {
+            .contact-card{
+               margin-left: 0;
+               margin-right: 0;
+               width: 100vw;
+               height: 70vh;
+               grid-template-columns: repeat(1,1fr);
+               grid-template-columns: repeat(1,1fr);
+              
+        } 
+
+        .contact-info{
+            display: none;
+             
+       
+        }
+        .contact-form{
+            top: 0;
+            background-color: blueviolet;
+            
+        }
+        }
+
+        
+        @media screen and (max-width:500px) {
+            .contact-card{
+               margin-left: 0;
+               margin-right: 0;
+               width: 100vw;
+               height: 80vh;
+               grid-template-columns: repeat(1,1fr);
+               grid-template-columns: repeat(1,1fr);
+              
+        } 
+        .contact-form{
+         
+         background-color: blueviolet;
+         
+     }
+
+        
+        }
+
+    </style>
+</head>
+<body>
+      <div class="contact-card">
+          <div class="contact-info"></div>
+          <div class="contact-form">
+           
+                <label  className='label'>name</label>
+                <input type='text' placeholder='ENTER NAME HERE'></input> 
+                <label  className='label'>Surname</label>
+                <input type='text' placeholder='ENTER NAME LAST NAME HERE'></input> 
+                <label  className='label'>Email  </label>
+                <input type='email' placeholder='ENTER Email HERE'></input> 
+                <label className='label' >contact number </label>
+                <input type='text' placeholder='ENTER Contact number'></input> 
+                <button type='submit'>Submit</button>
+            
+          </div>
+      </div>
+    
+</body>
+</html>
