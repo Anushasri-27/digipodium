@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         *{
-            margin: 0;
+            margin: 0px;
         }
         body{
             display: flex;
@@ -41,15 +41,28 @@
         }
 
         @media screen and (max-width:900px) {
-            .contact-card{
+        
+        *{
+            margin: 0;
+        }
+        
+       .contact-card{
                margin-left: 0;
                margin-right: 0;
                width: 100vw;
                height: 70vh;
                grid-template-columns: repeat(1,1fr);
                grid-template-columns: repeat(1,1fr);
+               display: flex;
+               justify-content: center;
+               align-content: center;
               
         } 
+
+        .wrap{
+            border: 2px solid red;
+            width: 50vw;
+        }
 
         .contact-info{
             display: none;
@@ -57,8 +70,29 @@
        
         }
         .contact-form{
-            top: 0;
-            background-color: blueviolet;
+         display: flex;
+         background-color: rgba(119, 109, 128, 0.086);
+         
+         flex-direction: column;
+         justify-content: center;
+        
+        
+         
+        }  
+        input{
+             display: block;
+             width: 50vw;
+             margin-top: 3vh;
+
+        }
+        .label{
+            display:block;
+            margin-top: 3vh;
+            text-transform:uppercase;
+        }
+        .btn{
+            width: 51vw;
+            margin-top: 3vh;
             
         }
         }
@@ -74,13 +108,18 @@
                grid-template-columns: repeat(1,1fr);
               
         } 
+       
         .contact-form{
          
          background-color: blueviolet;
-         
-     }
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        }  
+        input{
+            display: block;
+        }
 
-        
         }
 
     </style>
@@ -89,17 +128,17 @@
       <div class="contact-card">
           <div class="contact-info"></div>
           <div class="contact-form">
-           
-                <label  className='label'>name</label>
+               <div class="wrap">
+                <label  class='label'>name</label>
                 <input type='text' placeholder='ENTER NAME HERE'></input> 
-                <label  className='label'>Surname</label>
+                <label  class='label'>Surname</label>
                 <input type='text' placeholder='ENTER NAME LAST NAME HERE'></input> 
-                <label  className='label'>Email  </label>
+                <label  class='label'>Email  </label>
                 <input type='email' placeholder='ENTER Email HERE'></input> 
-                <label className='label' >contact number </label>
+                <label class='label' >contact number </label>
                 <input type='text' placeholder='ENTER Contact number'></input> 
-                <button type='submit'>Submit</button>
-            
+                <button class="btn" type='submit'>Submit</button>
+               </div>
           </div>
       </div>
     
