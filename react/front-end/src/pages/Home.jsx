@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unknown-property */
+import Count from "../COMPONENT/Count";
+import EventHandling from "../COMPONENT/EventHandling";
 import Header from "../COMPONENT/Header";
-import Login from "./Login";
+import Login from "../COMPONENT/Login";
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
     
        <Header/>
        <div className="container mt-5 w-100">
+        <Count />
+        <EventHandling />
        <Login />
        </div>
      

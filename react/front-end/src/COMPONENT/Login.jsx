@@ -2,7 +2,7 @@ const Login = () => {
   return (
     <div className="container">
       <div className="col">
-        <dic className="card ">
+        <dic className="card">
           <div className="card-header ">
             <h3>Login</h3>
           </div>
