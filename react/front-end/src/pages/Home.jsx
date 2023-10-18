@@ -1,22 +1,20 @@
 /* eslint-disable react/no-unknown-property */
-import Count from "../COMPONENT/Count";
-import EventHandling from "../COMPONENT/EventHandling";
+
 import Header from "../COMPONENT/Header";
 import Login from "../COMPONENT/Login";
 
 const Home = () => {
   return (
-    <div>
-    
-       <Header/>
-       <div className="container mt-5 w-100">
-        <Count />
-        <EventHandling />
-       <Login />
-       </div>
-     
+    <div className="home-wrap">
+      <Header />
+      <div className="container form-wrap d-flex justify-content-center">
+        <div className="login-form w-50">
+          <h2>Login to continue...</h2>
+          <Login />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;

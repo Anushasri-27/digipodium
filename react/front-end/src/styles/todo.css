@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerlist{
+   
+    background: linear-gradient(rgb(250, 250, 247),white);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.card{
+     background: linear-gradient(rgb(255, 255, 255),white);
+     width: 100%;
+     height: fit-content;
+     border:none;
+     margin: 0;
+    
+
+}
+.card-header{
+    background-color:rgba(187, 203, 122, 0.022);
+    border:none;
+}
+.list-input{
+   border-radius: 100px;
+   border: 12px brown solid;
+
+}
+.todo-list{
+    
+   
+    color: azure;
+
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-decoration:overline;
+
+}
+h1:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.containerlist{
+    background: linear-gradient(rgb(208, 232, 111),white\\);
+    width: 100%;
+    height: fit-content;
+    backdrop-filter: blur(5px);
+}
+.done-list{
+    text-decoration: line-through ;
+}
+#l-wrap{
+    background-color: rgb(221, 86, 197);
+    font-size: larger;
+    border-radius: 100px;
+    padding: 20px;
+}
+#l-wrap:nth-child(2n+0) {
+    background: rgb(72, 255, 0);
+  }
+  #l-wrap:nth-child(even) {
+    background: rgb(159, 48, 187);
+  }
+  #l-wrap:nth-child(3n+0) {
+    background: rgb(4, 207, 243);
+  }
+  #l-wrap:nth-child(5n+2) {
+    background: rgb(220, 136, 19);
+  }
+

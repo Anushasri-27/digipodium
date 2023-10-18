@@ -6,6 +6,15 @@
   box-sizing: border-box;
   text-align: center;
 }
+ body{
+  background-image: url('../public/header.jpg');
+  background-attachment:local;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+ }
 
 .logo {
   height: 10em;
@@ -16,31 +25,29 @@
 
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #61dafbc3);
 }
 
 .header {
-  background-image: url('../public/header.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0;
-  width: 100vw;
-  height: 70vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
+  margin-bottom: 20px;
 
+}
+.home-wrap {
+  backdrop-filter: blur(5px);
+  height: 92.8vh;
+  margin: 0;
 }
 
 .header-text {
   width: 100vw;
-  height: 70vh;
-  backdrop-filter: blur(5px);
+  height: 40vh;
   display: flex;
   flex-direction: row;
   align-items: center;
